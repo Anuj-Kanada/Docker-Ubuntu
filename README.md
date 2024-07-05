@@ -18,7 +18,7 @@
 -> By default, the docker command can only be run the root user or by a user in the docker group. Add system user to docker group, Please follow below steps :</br>
 1. groups (Output will show users of docker group. ex : docker sudo www-data) </br>
 2. sudo groupadd docker</br>
-
+3. sudo usermod -aG docker $USER ($user refers username of system. sudo usermod -aG docker anuj_kanada. This command work for both system user who already logged in and also for who not logged in right now)</br>
 
 
 
