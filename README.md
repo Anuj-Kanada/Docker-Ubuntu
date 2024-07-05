@@ -14,7 +14,9 @@
 7. docker --version (Check docker version) </br>
 8. sudo systemctl status docker (Check docker status) </br>
 
-#Post Installation steps:
+# Post Installation steps:
+-> By default, the docker command can only be run the root user or by a user in the docker group. Add system user to docker group, Please follow below steps :
+
 
 
 
