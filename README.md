@@ -10,4 +10,7 @@
 3. curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add - (Add the GPG key for the official Docker repository to your system)</br>
 4. sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable" (Add the Docker repository to APT sources. This will also update our package database with the Docker packages from the newly added repo.)</br>
 5. sudo apt install docker-ce (install docker)</br>
+6. sudo apt install -f (This is will fix package forcefully in case any error)</br>
+
+
 
