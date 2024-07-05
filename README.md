@@ -12,7 +12,10 @@
 5. sudo apt install docker-ce (install docker)</br>
 6. sudo apt install -f (This is will fix package forcefully in case any error)</br>
 7. docker --version (Check docker version) </br>
-8. sudo systemctl status docker (Check docker status)
+8. sudo systemctl status docker (Check docker status) </br>
+
+#Post Installation steps:
+
 
 
 
