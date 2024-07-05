@@ -16,7 +16,8 @@
 
 # Post Installation steps:
 -> By default, the docker command can only be run the root user or by a user in the docker group. Add system user to docker group, Please follow below steps :</br>
-1. groups (Output will show users of docker group. ex : docker sudo www-data)
+1. groups (Output will show users of docker group. ex : docker sudo www-data) </br>
+2. sudo groupadd docker</br>
 
 
 
