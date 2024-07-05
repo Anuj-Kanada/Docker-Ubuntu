@@ -11,6 +11,8 @@
 4. sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable" (Add the Docker repository to APT sources. This will also update our package database with the Docker packages from the newly added repo.)</br>
 5. sudo apt install docker-ce (install docker)</br>
 6. sudo apt install -f (This is will fix package forcefully in case any error)</br>
+7. docker --version (Check docker version) </br>
+
 
 
 
