@@ -34,11 +34,11 @@
 </br>
 ->docker info (command to check about docker info like version, total container, running-pause containers etc)
 </br>
-● sudo systemctl restart docker.service </br>
-
 
 #Configure Docker to start on boot
 1. Enable Services:</br>
+● sudo systemctl restart docker.service </br>
+● sudo systemctl restart containerd.service
 
 
 
