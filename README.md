@@ -27,7 +27,8 @@
 </br>
 -> docker ps -l (command to check latest container)
 </br>
-->To start a container : docker start container_id  
+->To start a container : docker start container_id  </br>
+->To stop a container : docker stop container_id       
 
 
 
