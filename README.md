@@ -35,5 +35,6 @@
 ->docker info (command to check about docker info like version, total container, running-pause containers etc)
 </br>
 
+#Configure Docker to start on boot
 
 
