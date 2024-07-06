@@ -29,7 +29,9 @@
 ->To remove a container : docker rm container_id
 </br>
 ->To start a container : docker start container_id  </br>
-->To stop a container : docker stop container_id       
+->To stop a container : docker stop container_id       </br>
+-> docker (command to check all options/arguments we can pass. ex : docker run hello-word )
+
 
 
 
