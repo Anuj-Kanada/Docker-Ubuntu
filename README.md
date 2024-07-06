@@ -25,7 +25,8 @@
 -> docker ps (command to check active container)</br>
 -> docker ps -a (command to check both active and inactive containers)
 </br>
--> docker ps -l (command to check latest container)
+-> docker ps -l (command to check latest container)</br>
+->To remove a container : docker rm container_id
 </br>
 ->To start a container : docker start container_id  </br>
 ->To stop a container : docker stop container_id       
