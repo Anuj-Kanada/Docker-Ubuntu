@@ -26,7 +26,8 @@
 -> docker ps -a (command to check both active and inactive containers)
 </br>
 -> docker ps -l (command to check latest container)
-   
+</br>
+->To start a container : docker start container_id  
 
 
 
