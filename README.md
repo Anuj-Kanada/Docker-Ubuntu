@@ -24,14 +24,5 @@
 -> sudo docker ps and docker ps, If both command working it means you are on right path.</br>
 -> docker ps (command to check active container)</br>
 
-CONTAINER ID   IMAGE                                                    COMMAND                  CREATED       STATUS                 PORTS             </br>                                                                                                                                 NAMES
-2d033d0259c7   ddev/ddev-webserver:v1.22.6-Training-built               "/pre-start.sh"          2 hours ago   Up 2 hours (healthy)   8025/tcp, 127.0.0.1:32791->80/tcp, 127.0.0.1:32790->443/tcp                                                                                        ddev-Training-web
-ac29682c3468   ddev/ddev-dbserver-mariadb-10.4:v1.22.6-Training-built   "/docker-entrypoint.…"   2 hours ago   Up 2 hours (healthy)   127.0.0.1:32789->3306/tcp                                                                                                                          ddev-Training-db
-d3e91b1faa1b   ddev/ddev-traefik-router:v1.22.6                         "/entrypoint.sh --co…"   3 hours ago   Up 3 hours (healthy)   127.0.0.1:80->80/tcp, 127.0.0.1:443->443/tcp, 127.0.0.1:8025-8026->8025-8026/tcp, 127.0.0.1:9200-9201->9200-9201/tcp, 127.0.0.1:10999->10999/tcp   ddev-router
-e475a07ac980   elasticsearch:7.17.14                                    "/bin/tini -- /usr/l…"   3 hours ago   Up 3 hours (healthy)   9200/tcp, 9300/tcp                                                                                                                                 ddev-Training-elasticsearch
-bb499f193eac   ddev/ddev-ssh-agent:v1.22.6-built                        "/entry.sh ssh-agent"    3 hours ago   Up 3 hours (healthy)
-
-
-
 
 
