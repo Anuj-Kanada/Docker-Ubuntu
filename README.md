@@ -25,7 +25,8 @@
 -> docker ps (command to check active container)</br>
 -> docker ps -a (command to check both active and inactive containers)
 </br>
-
+-> docker ps -l (command to check latest container)
+   
 
 
 
