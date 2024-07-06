@@ -31,7 +31,9 @@
 ->To start a container : docker start container_id  </br>
 ->To stop a container : docker stop container_id       </br>
 -> docker (command to check all options/arguments we can pass. ex : docker run hello-word )
-
+</br>
+->docker info (command to check about docker info like version, total container, running-pause containers etc)
+</br>
 
 
 
