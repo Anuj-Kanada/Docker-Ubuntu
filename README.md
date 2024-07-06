@@ -23,6 +23,9 @@
 -> If you run groups command again, Output will show users of docker group. ex : docker sudo www-data anuj_kanada   </br>
 -> sudo docker ps and docker ps, If both command working it means you are on right path.</br>
 -> docker ps (command to check active container)</br>
+-> docker ps -a (command to check both active and inactive containers)
+</br>
+
 
 
 
